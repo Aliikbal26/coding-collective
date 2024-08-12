@@ -1,0 +1,190 @@
+
+.nav-item {
+  padding: 12px;
+  text-align: right;
+  margin-left: 2px;
+  font-size: 13px;
+  transition: background-color 0.3s ease;
+}
+
+
+.custom-btn {
+  background-color: white;
+  color: black;
+  font-size: small;
+  padding: 10px 20px; 
+  width: 100%; 
+  max-width: 250px; 
+  text-align: center;
+  display: inline-block; 
+  margin-bottom: 10px; 
+}
+
+
+.btn-job {
+  background-color: white;
+  color: #000;
+  font-size: small;
+}
+
+/* Social Icons */
+.social-icons {
+  position: fixed;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.social-icons a {
+  color: rgb(192, 192, 192);
+  margin: 0 10px;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+
+.card-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 50%; 
+  height: auto; 
+  display: block; 
+  object-fit: contain; 
+}
+
+.card-industries{
+  border-radius: 10px; 
+  padding: 16px;
+}
+
+.card-what-we-offer {
+  border: 2px solid transparent; 
+  border-radius: 10px; 
+  padding: 16px;
+  transition: border-color 0.3s ease; 
+  background-color: #fff; 
+}
+
+.card-what-we-offer:hover {
+  border: 2px solid #fdd196;
+  transform: scale(1.05);
+  opacity: 10;
+  /* Warna dan ukuran border */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.nav-item{
+  color: white;
+}
+
+#jumbotron {
+  position: relative;
+  padding: 50px 0;
+}
+
+
+.btn{
+  border-radius: 23px;
+}
+
+.btn-load-more{
+  background-color: #f4d926 !important;
+  color: #000000;
+  font-family: "Roboto", Sans-serif;
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 50px;
+  border: none;
+  text-decoration: none !important;
+}
+
+
+.btn-load-more:hover{
+  background-color: #f37721 !important;
+  color: #ffffff;
+}
+
+
+.carousel-control-next-icon {
+  background-image: none;
+  border: solid #F37721;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 10px;
+  transform: rotate(-45deg);
+}
+
+.carousel-control-prev-icon {
+  background-image: none;
+  border: solid #F37721;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 10px;
+  transform: rotate(135deg);
+}
+
+/* handphone */
+@media (max-width: 768px) {
+
+.side-jumbotron{
+  align-items: center;
+}
+#your-section-id .col-md-6 {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+#your-section-id .btn {
+    margin: 0 auto;
+}
+
+
+
+.btn-load-more{
+  background-color: #f4d926 !important;
+  color: #000000;
+  font-family: "Roboto", Sans-serif;
+  padding: 15px 30px;
+  font-size: 13px;
+  border-radius: 45px;
+  border: none;
+  text-decoration: none !important;
+}
+
+#footer{
+  text-align: center;
+}
+
+
+.title-jumbotron {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.custom-btn {
+  font-size: 0.9rem;
+  padding: 8px 16px;
+  text-align: center;
+}
+
+.social-icons a {
+  font-size: 1.2rem;
+}
+
+}
